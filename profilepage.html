@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile Page</title>
+    <style>
+        *{
+            font-family: 'Times New Roman', Times, serif;
+            margin-left: 10px;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 200px;
+            /* background: #6665ee; */
+        }
+        .container{
+            /* background-color: #fff; */
+            border-radius: 15px;
+            padding: 25px;
+            max-width: 782px;
+            width: 150%;
+            box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+        }
+        /* .container-1{
+            line-height: 0%;
+        }  */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container-1" style="line-height: 0px;">
+            <h4 class="fmane">Full Name</h4>
+            <p class="@name">John Smith</p>
+            <br>
+        </div><hr>
+        <div class="container-2" style="line-height: 0px;">
+           <h4>Email</h4>
+           <p>johnsmith0511@gmail.com</p><br>
+        </div><hr>
+        <div class="container-3" style="line-height: 0px;">
+            <h4>Phone</h4>
+            <p>9876123546</p>
+        </div><hr>
+
+        <div class="container-5">
+            <h2>My Questions</h2>
+            <ul>
+                <div class="container-0">
+                <li>Do you multitasking when attending a meeting online?</li><br>
+                    <input type="radio" name="metting" id="online">
+                    <label for="online">My mind tends to wander</label>
+                    <span class="percent" style="margin-left: 70px;float: right;">20%</span><br><br>
+                    <input type="radio" name="metting" id="guilty">
+                    <label for="guilty">Yes, I'm guilty</label>
+                    <span class="percent"style="float: right;">40%</span><br><br>
+                    <input type="radio" name="metting" id="focused">
+                    <label for="focused">No, I'm 100% focused</label>
+                    <span class="percent"style="float: right;">30%</span><br><br>
+                    <input type="radio" name="meeting" id="sometimes">
+                    <label for="Sometimes">Sometimes</label>
+                    <span class="percent"style="float: right;">10%</span><br><br>
+                </div>
+                <div class="container-1">
+                <li>How did you discover HobSpot?</li><br>
+                    <input type="radio" name="HobSpot" id="discover">
+                    <label for="discover">Search Engine(Google,Yahoo,etc.)</label>
+                    <span class="percent" style="margin-left: 70px;float: right;">40%</span><br><br>
+                    <input type="radio" name="HobSpot" id="colleague">
+                    <label for="colleague">Recommended by friend or colleague</label>
+                    <span class="percent"style="float: right;">40%</span><br><br>
+                    <input type="radio" name="HobSpot" id="social">
+                    <label for="social">Social media</label>
+                    <span class="percent"style="float: right;">10%</span><br><br>
+                    <input type="radio" name="HobSpot" id="blog">
+                    <label for="discover">Blog or publication</label>
+                    <span class="percent"style="float: right;">10%</span><br><br>
+                </div>
+                <div class="container-2">
+                <li>How do you typically learn about new podcasts?</li><br>
+                    <input type="radio" name="metting" id="app">
+                    <label for="app">A podcast app</label>
+                    <span class="percent" style="margin-left: 70px;float: right;">10%</span><br><br>
+                    <input type="radio" name="metting" id="media">
+                    <label for="media">Social media</label>
+                    <span class="percent"style="float: right;">50%</span><br><br>
+                    <input type="radio" name="metting" id="friend">
+                    <label for="friend">Recommendation from a friend</label>
+                    <span class="percent"style="float: right;">20%</span><br><br>
+                    <input type="radio" name="meeting" id="charts">
+                    <label for="Sometimes">iTunes charts</label>
+                    <span class="percent"style="float: right;">20%</span><br><br>
+                </div>
+                <div class="container-3">
+                <li>What grade do you expect to receive in this course</li><br>
+                    <input type="radio" name="metting" id="a">
+                    <label for="a">A</label>
+                    <span class="percent" style="margin-left: 70px;float: right;">60%</span><br><br>
+                    <input type="radio" name="metting" id="b">
+                    <label for="b">B</label>
+                    <span class="percent"style="float: right;">10%</span><br><br>
+                    <input type="radio" name="metting" id="c">
+                    <label for="c">C</label>
+                    <span class="percent"style="float: right;">10%</span><br><br>
+                    <input type="radio" name="meeting" id="d">
+                    <label for="d">D</label>
+                    <span class="percent"style="float: right;">10%</span><br><br>
+                </div>
+                <div class="container-4">
+                <li>How long have you been purchasing our services?</li><br>
+                    <input type="radio" name="metting" id="sevices">
+                    <label>Less than 6 months</label>
+                    <span class="percent" style="margin-left: 70px;float: right;">50%</span><br><br>
+                    <input type="radio" name="metting" id="year">
+                    <label for="year">6 months to less than 1 year</label>
+                    <span class="percent"style="float: right;">30%</span><br><br>
+                    <input type="radio" name="metting" id="less">
+                    <label for="less">1 year to less than 3 years</label>
+                    <span class="percent"style="float: right;">10%</span><br><br>
+                    <input type="radio" name="meeting" id="than">
+                    <label for="than">3 years to less than years</label>
+                    <span class="percent"style="float: right;">10%</span><br><br>
+                </div>
+            <ul>
+
+        </div>
+
+
+    </div>
+</body>
+</html>
